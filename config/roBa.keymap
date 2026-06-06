@@ -54,6 +54,16 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
+
+        english {
+            bindings = <&kp LANGUAGE_2>;
+            key-positions = <13 39>;
+        };
+
+        japanese {
+            bindings = <&kp LANGUAGE_1>;
+            key-positions = <17 40>;
+        };
     };
 
     macros {
@@ -122,7 +132,7 @@
         MOUSE {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans  &mkp MB2  &mkp MB3  &mkp MB1  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;
