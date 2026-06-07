@@ -57,7 +57,7 @@
 
         english {
             bindings = <&kp LANGUAGE_2>;
-            key-positions = <13 37>;
+            key-positions = <13 38>;
         };
 
         japanese {
