@@ -28,8 +28,8 @@ layers:
   - {t: C, h: Gui+C}
   - {t: V, h: Gui+V}
   - B
-  - ':'
-  - ;
+  - {t: ':', h: Meh+LGUI}
+  - {t: ;, h: Meh+LGUI}
   - N
   - M
   - ','
@@ -38,13 +38,13 @@ layers:
   - LCTRL
   - LEFT ALT
   - LEFT WIN
-  - {t: '&to_layer_0 INT_HENKAN', h: FUNCTION}
+  - {t: '&to_layer_0 INT_HENKAN', h: SHORTCUT}
   - {t: SPACE, h: NUM}
   - {t: '&to_layer_0 INT_MUHENKAN', h: ARROW}
   - {t: BACKSPACE, h: NUM}
   - {t: ENTER, h: ARROW}
   - {t: DEL, h: '6'}
-  FUNCTION:
+  SHORTCUT:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
