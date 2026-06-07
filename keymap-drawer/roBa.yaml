@@ -24,7 +24,7 @@ layers:
   - L
   - ''''
   - {t: Z, h: LEFT SHIFT}
-  - X
+  - {t: X, h: Gui+X}
   - {t: C, h: Gui+C}
   - {t: V, h: Gui+V}
   - B
