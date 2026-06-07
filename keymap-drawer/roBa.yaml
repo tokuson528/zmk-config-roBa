@@ -42,7 +42,7 @@ layers:
   - {t: SPACE, h: NUM}
   - {t: '&to_layer_0 INT_MUHENKAN', h: ARROW}
   - {t: BACKSPACE, h: NUM}
-  - {t: ENTER, h: FUNCTION}
+  - {t: ENTER, h: ARROW}
   - DEL
   FUNCTION:
   - {t: ▽, type: trans}
@@ -86,7 +86,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NUM:
   - '-'
