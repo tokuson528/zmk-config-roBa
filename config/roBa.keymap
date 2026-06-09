@@ -6,6 +6,7 @@
 &mt {
     flavor = "balanced";
     quick-tap-ms = <0>;
+    tapping-term-ms = <120>;
 };
 
 &trackball {
@@ -89,14 +90,14 @@
             bindings = <&mo>, <&to_layer_0>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <120>;
         };
 
         ht: hold_tap {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             bindings = <&kp>, <&kp>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <120>;
             flavor = "balanced";
         };
     };
@@ -109,7 +110,7 @@
 &kp Q             &kp W         &kp E         &ht LG(R) R                  &kp T                                                          &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &ht LG(A) A       &ht LG(S) S   &kp D         &kp F                        &ht LG(G) G  &kp LS(LG(S))                      &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
 &mt LEFT_SHIFT Z  &ht LG(X) X   &ht LG(C) C   &ht LG(V) V                  &kp B        &ht LS(LC(LA(LGUI))) COLON         &ht LS(LC(LA(LGUI))) SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_ALT  &kp LEFT_WIN  &lt 2 INT_HENKAN  &kp SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &lt 2 BACKSPACE  &lt 3 ENTER                             &lt 6 DEL
+&kp LCTRL         &kp LEFT_ALT  &lt 1 INT_HENKAN  &kp LEFT_WIN  &kp SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &lt 2 BACKSPACE  &lt 3 ENTER                             &lt 6 DEL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
