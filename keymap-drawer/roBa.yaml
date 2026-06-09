@@ -37,8 +37,8 @@ layers:
   - /
   - LCTRL
   - LEFT ALT
+  - {t: INT HENKAN, h: SHORTCUT}
   - LEFT WIN
-  - {t: INT HENKAN, h: NUM}
   - SPACE
   - {t: '&to_layer_0 INT_MUHENKAN', h: ARROW}
   - {t: BACKSPACE, h: NUM}
@@ -81,7 +81,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -126,10 +126,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '|'
   ARROW:
