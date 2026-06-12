@@ -37,7 +37,7 @@ layers:
   - /
   - LCTRL
   - LEFT ALT
-  - {t: INT HENKAN, h: SHORTCUT}
+  - {t: Gui+SPACE, h: SHORTCUT}
   - LEFT WIN
   - SPACE
   - {t: '&to_layer_0 INT_MUHENKAN', h: ARROW}
