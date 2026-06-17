@@ -114,7 +114,7 @@
 &kp Q             &kp W         &kp E         &kp R                        &kp T                                                          &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &ht LS(LC(LA(LGUI))) COLON         &ht LS(LC(LA(LGUI))) SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_ALT  &lt 1 LG(SPACE)  &kp LEFT_WIN  &kp SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &lt 2 BACKSPACE  &lt 3 ENTER                             &lt 6 DEL
+&kp LCTRL         &kp LEFT_ALT  &lt 1 LG(SPACE)  &kp LEFT_WIN  &kp SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &lt 2 BACKSPACE  &lt 3 ENTER                             &kp LEFT_WIN
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
