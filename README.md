@@ -30,11 +30,4 @@
 
 | キー | タップ | 長押し |
 |---|---|---|
-| A | A | Cmd+A（全選択） |
-| X | X | Cmd+X（切り取り） |
-| S | S | Cmd+S（保存） |
-| C | C | Cmd+C（コピー） |
-| V | V | Cmd+V（貼り付け） |
-| G | G | Cmd+G（次を検索） |
-| R | R | Cmd+R（更新） |
 | Backspace | Backspace | NUMレイヤー |
