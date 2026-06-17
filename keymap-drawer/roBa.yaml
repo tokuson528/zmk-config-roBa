@@ -34,13 +34,13 @@ layers:
   - M
   - ','
   - .
-  - /
+  - {t: /, h: RIGHT SHIFT}
   - LCTRL
   - LEFT ALT
   - {t: Gui+SPACE, h: SHORTCUT}
   - LEFT WIN
   - SPACE
-  - {t: '&to_layer_0 INT_MUHENKAN', h: ARROW}
+  - {t: INT MUHENKAN, h: NUM}
   - {t: BACKSPACE, h: NUM}
   - {t: ENTER, h: ARROW}
   - LEFT WIN
@@ -128,8 +128,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '|'
   ARROW:
@@ -172,9 +172,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   MOUSE:
   - {t: ▽, type: trans}
