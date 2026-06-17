@@ -4,18 +4,18 @@ layers:
   - Q
   - W
   - E
-  - {t: R, h: Gui+R}
+  - R
   - T
   - Y
   - U
   - {t: I, h: SCROLL}
   - O
   - P
-  - {t: A, h: Gui+A}
-  - {t: S, h: Gui+S}
+  - A
+  - S
   - D
   - F
-  - {t: G, h: Gui+G}
+  - G
   - Sft+Gui+S
   - '-'
   - H
@@ -24,9 +24,9 @@ layers:
   - L
   - ''''
   - {t: Z, h: LEFT SHIFT}
-  - {t: X, h: Gui+X}
-  - {t: C, h: Gui+C}
-  - {t: V, h: Gui+V}
+  - X
+  - C
+  - V
   - B
   - {t: ':', h: Meh+LGUI}
   - {t: ;, h: Meh+LGUI}
