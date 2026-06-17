@@ -43,7 +43,7 @@ layers:
   - {t: '&to_layer_0 INT_MUHENKAN', h: ARROW}
   - {t: BACKSPACE, h: NUM}
   - {t: ENTER, h: ARROW}
-  - {t: DEL, h: '6'}
+  - LEFT WIN
   SHORTCUT:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -307,7 +307,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
 combos:
 - p: [11, 12]
   k: TAB
